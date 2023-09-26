@@ -1,0 +1,98 @@
+.btn {
+  padding: 17px 30px;
+  font-size: 16px;
+  font-weight: 700;
+  transition: 0.3s;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.btn-circle {
+  height: 55px;
+  width: 55px;
+  font-size: 17px;
+  padding: 17px;
+  border-radius: 50%;
+  display: flex;
+  border: 1px solid transparent;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-red {
+  background-color: #b00f0f;
+  color: white;
+}
+.btn-red:hover {
+  background-color: white;
+  color: black;
+}
+
+.btn-white {
+  background-color: white;
+  color: black;
+}
+.btn-white:hover {
+  background-color: #b00f0f;
+  color: white;
+}
+
+.btn-social {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #181a1c;
+  background-color: white;
+}
+.btn-social:hover {
+  color: #b00f0f;
+}
+
+.btn-social-red {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: white;
+  background-color: #b00f0f;
+  transition: 0.3s;
+}
+.btn-social-red:hover {
+  background-color: #e4e7ff;
+  color: #b00f0f;
+}
+
+.scroll-up-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border: 2px solid #b00f0f;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+.scroll-up-button.active {
+  opacity: 1;
+  visibility: visible;
+}
+.scroll-up-button i {
+  color: #b00f0f;
+  font-size: 20px;
+}
